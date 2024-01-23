@@ -1,0 +1,333 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.7) 0% 100%) , url(../images/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2 .font{
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+
+
+ header .container p::after{
+   content: " ";
+   animation: home normal infinite 10s;
+   color: white;
+   font-size: large;
+   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 50px;
+
+}
+ @keyframes home {
+    0%{content: "larry Daniels|";}
+    4%{content: "larry Daniel|";}
+    8%{content: "larry Danie|";}
+    12%{content: "larry Dani|";}
+    16%{content: "larry Dan|";}
+    20%{content: "larry Da|";}
+    24%{content: "larry D|";}
+    28%{content: "larry |";}
+    32%{content: "larr|";}
+    34%{content: "lar|";}
+    38%{content: "la|";}
+    42%{content: "l|";}
+    46%{content: "|";}
+    48%{content: "Developer|";}
+    52%{content: "Develope|";}
+    56%{content: "Develop|";}
+    58%{content: "Develo|";}
+    62%{content: "Devel|";}
+    66%{content: "Deve|";}
+    72%{content: "Dev|";}
+    76%{content: "De|";}
+    80%{content: "D|";}
+    84%{content: "|";}
+    88%{content: "Designer|";}
+    90%{content: "Designe|";}
+    91%{content: "Design|";}
+    92%{content: "Desig|";}
+    93%{content: "Desi|";}
+    94%{content: "Des|";}
+    95%{content: "De|";}
+    96%{content: "D|";}
+    100%{content: "|";}
+    
+}   
+a{
+    font-family:Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif
+}
+
+.about p{
+    color:#748182;
+    font-size: 15px;
+}
+
+.hero .hero-img:after {
+    content: "";
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: -570px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+    margin-left: 50px;
+}
+
+.inner img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.progress {
+    position: relative;
+    height: 50px; 
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.progress-bar {
+    box-shadow: inset 0 2px 9px rgba(0, 0, 0, 0.3); 
+}
+
+.progress-text {
+    position: absolute;
+   
+    width: 100%;
+    
+    text-align: center;
+    line-height: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); 
+    z-index: 2; 
+}
+.cv{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    transition: 0.5s;
+}
+.cv:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.contact{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: 0.5s;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    
+}
+.web-design{
+    cursor: pointer;
+}
+.rounded-2{
+    cursor: pointer;
+}
+
+.item{
+    background-color: #F6F6F6;
+    width: 80px;
+    height: 80px;
+    color: black;
+    transition: 1s;
+    display: inline-block;
+    margin: auto;
+    
+   
+
+
+}
+.item:hover{
+    background-color: black;
+    color: #fff;
+    
+}
+.feedback{
+    background-color:  #F6F6F6;
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+
+}
+
+/* ========== */
+/* ==========team==== */
+
+.porto {
+    position: relative;
+    overflow: hidden;
+}
+.porto i{
+    margin-top: 120px;
+    padding-right: 10px;
+
+}
+.porto a{
+    color: black;
+    text-decoration: none;
+}
+
+/* .porto .porto-icon{
+    background-color:rgba(243, 238, 238, 0.7);
+    position: absolute;
+top: 0px;
+left: 0px;
+bottom:0px;
+right: 0px;
+opacity: 0;
+transition: 1s;
+    
+
+} */
+.porto img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.porto i:hover{
+    color: blue;
+    transition: 1s;
+}
+.porto:hover .porto-icon{
+    transform: rotate(360deg);
+    opacity: 1;
+}
+.porto:hover img{
+    transform: scale(1.1);
+}
+.overlay{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    cursor: pointer;
+    
+}
+.overlay .child{
+    width: 50%;
+    height:60%;
+    background-image: url(../images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: auto;
+    
+    
+    
+  
+}
+.fa-xmark{
+    top: 5px;
+    right: 10px;
+}
+
+
+
+.member{ background-color: transparent;
+width: 80%; 
+position: relative;
+overflow: hidden;
+/* border: 3px solid rgb(250, 248, 248); */
+
+
+
+}
+.member img{
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.member i{
+    margin-top: 120px;
+}
+.member .member-icons {background-color:rgba(255, 255, 255,0.7);
+
+width: 100%;
+text-align: center;
+position: absolute;
+top: 0px;
+left: 0px;
+bottom:86px;
+right: 0px;
+opacity: 0;
+transition: 1s;
+margin: auto;
+margin-right: 0.5px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.member a {
+    text-decoration: none;
+    color: black;
+    
+}
+.member i:hover{
+    color: blue;
+    transition: 1s;
+
+}
+.member:hover .member-icons{
+    transform: rotate(360deg);
+    opacity: 1;
+}
+.member:hover img{
+    transform: scale(1.1);
+}
+
+.member .good{
+    background-color: #8b9a9b;
+    width: 100%;
+    height: 100px;
+    border-bottom: 10%;
+    cursor: pointer;
+}
+
+
+.contact-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #748182;
+}
+.contact-icon a{
+    text-decoration: none;
+    color: black;}
+
+.footer .foot{
+    height: 100px;
+}
+
+i{
+    cursor: pointer;
+}
+  
+
+
